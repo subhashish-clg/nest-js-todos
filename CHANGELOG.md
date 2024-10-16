@@ -1,3 +1,10 @@
+# [0.1.0-dev-release.3](https://github.com/subhashish-clg/nest-js-todos/compare/v0.1.0-dev-release.2...v0.1.0-dev-release.3) (2024-10-16)
+
+
+### Features
+
+* Added test feature ([d565c8d](https://github.com/subhashish-clg/nest-js-todos/commit/d565c8d56808745f90f653801c3d0fc98f9c2630))
+
 # [0.1.0-dev-release.2](https://github.com/subhashish-clg/nest-js-todos/compare/v0.1.0-dev-release.1...v0.1.0-dev-release.2) (2024-10-16)
 
 
