@@ -13,29 +13,7 @@ export default {
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
-    {
-      // Customize changelog generation
-      path: '@semantic-release/changelog',
-      changelogTitle:
-        '# Changelog\n\nAll notable changes to this project will be documented in this file.',
-      changelogFile: 'CHANGELOG.md',
-      prepare: [
-        {
-          path: '@semantic-release/changelog',
-          changelogFile: 'CHANGELOG.md',
-          changelogTitle:
-            '# Changelog (Main)\n\nAll notable changes to this project will be documented in this file.',
-          channel: 'main',
-        },
-        {
-          path: '@semantic-release/changelog',
-          changelogFile: 'CHANGELOG.dev.md',
-          changelogTitle:
-            '# Changelog (Beta)\n\nAll notable changes to this project in development will be documented in this file.',
-          channel: 'dev-release',
-        },
-      ],
-    },
+    '@semantic-release/changelog',
     '@semantic-release/npm',
     [
       '@semantic-release/git',
